@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1457920554035" stop="1457920554062" version="1.4.11" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>ru.sber.operandtest.TestSubtraction</name>
+    <title>Òåñòèðóåì ñòðîêè ñ îïåðàöèÿìè âû÷èòàíèÿ</title>
+    <test-cases>
+        <test-case start="1457920554036" stop="1457920554046" status="passed">
+            <name>test</name>
+            <title>Òåñò âû÷èòàíèé</title>
+            <steps>
+                <step start="1457920554037" stop="1457920554038" status="passed">
+                    <name>getString[5, 10, -5]</name>
+                    <title>Ïðîâåðÿåì ñòðîêó 5-10=-5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554039" stop="1457920554039" status="passed">
+                    <name>getResult[5, 10]</name>
+                    <title>Âû÷èñëÿåì ðåçóëüò 5 - 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554041" stop="1457920554041" status="passed">
+                    <name>validate[-5, -5]</name>
+                    <title>Îæèäàåìûé ðåçóëüòàò = -5 ñðàâíèâàåì ñî çíà÷åíèåì èç ôàéëà = -5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554043" stop="1457920554043" status="passed">
+                    <name>getString[14, 5, 9]</name>
+                    <title>Ïðîâåðÿåì ñòðîêó 14-5=9</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554045" stop="1457920554045" status="passed">
+                    <name>getResult[14, 5]</name>
+                    <title>Âû÷èñëÿåì ðåçóëüò 14 - 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554046" stop="1457920554046" status="passed">
+                    <name>validate[9, 9]</name>
+                    <title>Îæèäàåìûé ðåçóëüòàò = 9 ñðàâíèâàåì ñî çíà÷åíèåì èç ôàéëà = 9</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="nt08"/>
+                <label name="thread" value="14742@nt08.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

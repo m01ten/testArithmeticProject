@@ -1,0 +1,137 @@
+{
+  "uid" : "cc05ee08dee1cca2",
+  "name" : "test",
+  "title" : "Òåñò âû÷èòàíèé",
+  "time" : {
+    "start" : 1457920554036,
+    "stop" : 1457920554046,
+    "duration" : 10
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "148fb6ab1830f556",
+    "name" : "ru.sber.operandtest.TestSubtraction",
+    "title" : "Òåñòèðóåì ñòðîêè ñ îïåðàöèÿìè âû÷èòàíèÿ"
+  },
+  "steps" : [ {
+    "name" : "getString[5, 10, -5]",
+    "title" : "Ïðîâåðÿåì ñòðîêó 5-10=-5",
+    "time" : {
+      "start" : 1457920554037,
+      "stop" : 1457920554038,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getResult[5, 10]",
+    "title" : "Âû÷èñëÿåì ðåçóëüò 5 - 10",
+    "time" : {
+      "start" : 1457920554039,
+      "stop" : 1457920554039,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "validate[-5, -5]",
+    "title" : "Îæèäàåìûé ðåçóëüòàò = -5 ñðàâíèâàåì ñî çíà÷åíèåì èç ôàéëà = -5",
+    "time" : {
+      "start" : 1457920554041,
+      "stop" : 1457920554041,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getString[14, 5, 9]",
+    "title" : "Ïðîâåðÿåì ñòðîêó 14-5=9",
+    "time" : {
+      "start" : 1457920554043,
+      "stop" : 1457920554043,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getResult[14, 5]",
+    "title" : "Âû÷èñëÿåì ðåçóëüò 14 - 5",
+    "time" : {
+      "start" : 1457920554045,
+      "stop" : 1457920554045,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "validate[9, 9]",
+    "title" : "Îæèäàåìûé ðåçóëüòàò = 9 ñðàâíèâàåì ñî çíà÷åíèåì èç ôàéëà = 9",
+    "time" : {
+      "start" : 1457920554046,
+      "stop" : 1457920554046,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "nt08"
+  }, {
+    "name" : "thread",
+    "value" : "14742@nt08.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "ru.sber.operandtest.TestSubtraction"
+  }, {
+    "name" : "suite-title",
+    "value" : "Òåñòèðóåì ñòðîêè ñ îïåðàöèÿìè âû÷èòàíèÿ"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

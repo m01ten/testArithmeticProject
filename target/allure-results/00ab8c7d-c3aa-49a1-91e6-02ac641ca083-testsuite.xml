@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1457920554022" stop="1457920554185" version="1.4.11" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>ru.sber.operandtest.TestDiv</name>
+    <title>Òåñòèðóåì ñòðîêè ñ îïåðàöèÿìè äåëåíèé</title>
+    <test-cases>
+        <test-case start="1457920554023" stop="1457920554034" status="passed">
+            <name>test</name>
+            <title>Òåñò äåëåíèé</title>
+            <steps>
+                <step start="1457920554025" stop="1457920554025" status="passed">
+                    <name>getString[10, 2, 5.0]</name>
+                    <title>Ïðîâåðÿåì ñòðîêó 10/2=5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554027" stop="1457920554027" status="passed">
+                    <name>getResult[10.0, 2.0]</name>
+                    <title>Âû÷èñëÿåì ðåçóëüò 10 / 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554029" stop="1457920554029" status="passed">
+                    <name>validate[5.0, 5.0]</name>
+                    <title>Îæèäàåìûé ðåçóëüòàò = 5 ñðàâíèâàåì ñî çíà÷åíèåì èç ôàéëà = 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554030" stop="1457920554030" status="passed">
+                    <name>getString[5, 2, 2.5]</name>
+                    <title>Ïðîâåðÿåì ñòðîêó 5/2=2,5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554032" stop="1457920554032" status="passed">
+                    <name>getResult[5.0, 2.0]</name>
+                    <title>Âû÷èñëÿåì ðåçóëüò 5 / 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554034" stop="1457920554034" status="passed">
+                    <name>validate[2.5, 2.5]</name>
+                    <title>Îæèäàåìûé ðåçóëüòàò = 2,5 ñðàâíèâàåì ñî çíà÷åíèåì èç ôàéëà = 2,5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="nt08"/>
+                <label name="thread" value="14742@nt08.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1457920554049" stop="1457920554215" version="1.4.11" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>ru.sber.operandtest.TestMultiplied</name>
+    <title>Òåñòèðóåì ñòðîêè ñ îïåðàöèÿìè óìíîæåíèÿ</title>
+    <test-cases>
+        <test-case start="1457920554049" stop="1457920554059" status="passed">
+            <name>test</name>
+            <title>Òåñò óìíîæåíèé</title>
+            <steps>
+                <step start="1457920554051" stop="1457920554051" status="passed">
+                    <name>getString[4, 2, 8]</name>
+                    <title>Ïðîâåðÿåì ñòðîêó 4*2=8</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554052" stop="1457920554052" status="passed">
+                    <name>getResult[4, 2]</name>
+                    <title>Âû÷èñëÿåì ðåçóëüò 4 * 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554054" stop="1457920554054" status="passed">
+                    <name>validate[8, 8]</name>
+                    <title>Îæèäàåìûé ðåçóëüòàò = 8 ñðàâíèâàåì ñî çíà÷åíèåì èç ôàéëà = 8</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554056" stop="1457920554056" status="passed">
+                    <name>getString[4, 3, 12]</name>
+                    <title>Ïðîâåðÿåì ñòðîêó 4*3=12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554057" stop="1457920554057" status="passed">
+                    <name>getResult[4, 3]</name>
+                    <title>Âû÷èñëÿåì ðåçóëüò 4 * 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1457920554059" stop="1457920554059" status="passed">
+                    <name>validate[12, 12]</name>
+                    <title>Îæèäàåìûé ðåçóëüòàò = 12 ñðàâíèâàåì ñî çíà÷åíèåì èç ôàéëà = 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="nt08"/>
+                <label name="thread" value="14742@nt08.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
